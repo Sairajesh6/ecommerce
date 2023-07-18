@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+nav{
+	background-color: green;
+}
+
+.navbar-brand{
+	font-size:2rem;
+	color: black;
+	font-family: 'Lobster',cursive;
+}
+
+.navbar-brand:hover{
+	color: black;
+}
+
+.nav-link{
+	margin-right: 10px;
+	margin-left: 10px;
+	color: white;
+	font-family: 'Rubik',sans-serif;
+	text-transform: uppercase;
+}
+
+/nav-link:hover{
+	color: black;
+	
+}
+
+.search{
+	height: 40px;
+	width: 80%;
+	border-radius: 60px;
+	outline: none;
+	border: 2px solid green;
+	font-family: 'Rubik',sans-serif;
+	margin-right: -30px;
+}
+
+.btn0{
+	height: 40px;
+	width: 40%;
+	outline:none;
+	
+	color: black;
+	background-color: white;
+	
+	font-weight: 700;
+	border-radius: 60px;
+}
+
+.main{
+	background: url("3.png")no-repeat;
+	background-size: cover;
+	height: 100vh;
+	background-position: 50% 50%;
+	width: 100%;
+	
+	
+}
+
+.main h1{
+	font-size: 4rem;
+	color: green;
+	font-weight: 700;
+	
+}
+
+.btn1{
+	height: 45px;
+	width: 25%;
+	border: none;
+	outline: none;
+	background-color: green;
+	color: white;
+	font-weight: 700;
+	border-radius: 60px;
+}
+
+.btn1{
+	background-color: green;
+	transition: 0.5s;
+}
+ h1{
+	
+      font-weight: 700;
+}
+
+.card:hover{
+	-webkit-box-shadow: -2px -2px 37px -15px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -2px 37px -15px rgba(0,0,0,0.75);
+box-shadow: -2px -2px 37px -15px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+
+.apple{
+	background:url('Yellow Restaurant Gift Voucher.png')no-repeat;
+	background-size: cover;
+	height: 80vh;
+	width: 100%;
+	
+}
+
+.apple h1{
+	font-family: 'Lobster',cursive;
+}
+
+.news{
+	background-color: black;
+	color: white;
+
+}
+
+.btn2{
+	height: 45px;
+	width: 100px;
+	background: white;
+	margin-left: -10px;
+	border: 2px solid white;
+	font-weight: 600;
+}
+.news input{
+	height: 45px;
+	width: 55%;
+	border: 2px solid white;
+	outline: none;
+	background: black;
+	color: white;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+.new::placeholder{
+    color: white;	
+}
+
+.news p{
+	margin: 0;
+	
+}
+
+.fab{
+	font-size: 2.5rem;
+	cursor: pointer;
+	padding-right: 5px;
+
+}
+
+.row.col-lg-4{
+	padding-right: 50%;
+}
